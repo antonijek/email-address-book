@@ -1,6 +1,12 @@
--Podesio sam slanje mejla korisniku koji je dodat na listu pa je potrebno kreirati mejl i podesavanja u vezi njega.
--U seederu sam podesio da se 3 korisnika vec nalaze na listi usera sa id-ijem 1
-Ako je potrebno saljem moj .env file
+-Prilikom testiranja skinuo sam projekat na drugom mjestu i posle uobicajnih instaliranja bilo je potrebno uraditi:
+-Kreirati storage:link
+-Podesio sam slanje mejla korisniku koji je dodat na listu pa je potrebno uraditi podesavanja u vezi njega.
+ Ako je potrebno saljem moj .env file
+ Jednom mi je tokom testiranja slike pamtio u storage/app/images, pa nisam mogao da prikazem sliku, a takodje sam imao probleme i sa exelom tada. Posle toga    m  nekoliko puta sam probao i bilo je sve u redu. Nadam se da ce i kod tebe...
+
+
+
+
 APP_NAME=email_adress_book
 APP_ENV=local
 APP_KEY=base64:ICCxVUcm0vliIAWMB2FneUD5hS6CEwO15pr61ZgjWGc=
